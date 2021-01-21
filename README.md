@@ -1,7 +1,7 @@
 # Electric Power Grid
 The project simulates the functions and operations of electric power grid, employing the power of data structures in programming.
 
-## Specification
+# Specification
 **The electric power grid** is the network infrastructure responsible for the generation and transmission of electricity. We have three types of elements in a power grid:
 - *A generator*: this is a station that generates electricity. A generator has a power limit that it cannot exceed.
   
@@ -11,7 +11,7 @@ The project simulates the functions and operations of electric power grid, emplo
   
 For simplicity, we assume that **the power grid can be represented as a general (non-binary) tree.** The grid contains only one generator located at the root, whereas consumers are located at leaf nodes. See the figure below for an example.
 
-## Objective
+# Objective
 **We are interested in the following:**
 1. Finding how much power is generated, transmitted or consumed by an element. This is the total power required by the consumers in the corresponding subtree. 
    
@@ -21,11 +21,15 @@ For simplicity, we assume that **the power grid can be represented as a general 
    
    **Example 2.** In the grid shown below, the only element that has an overload is Element 4, since it consumes 19, and its limit is 18.
 
+
+# Program Structure
+The program is divided into multiple components, which are:
+1. **A general tree**: The general tree interface would be implemented with LinkedGT class. Note that there is no limit on the number of children that a node can have.
+2. **A power grid**: We will represent a power grid using a general tree. Elements of the grid are represented by the class PGElem.
+
+- Finally, the expected output after running the program -The output of Main class- could be found [**here**](Project-Code/MainOutput.txt).
+
 ---
 **Example Figure of Grid:**
 
 ![Example Figure](Example_of_grid.png)
-
-
-
-- Finally, you can find the output of the main class -the test class of the program- [**here**](Project-Code/MainOutput.txt).
