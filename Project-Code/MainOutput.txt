@@ -1,0 +1,31 @@
+------------------
+3
+4
+8
+13
+11
+14
+6
+9
+10
+5
+12
+16
+7
+17
+------------------
+Power consumed by Element 3 : 31.0
+Power consumed by Element 4 : 19.0
+Power consumed by Element 8 : 10.0
+Power consumed by Element 13 : 3.0
+Power consumed by Element 11 : 3.0
+Power consumed by Element 14 : 4.0
+Power consumed by Element 6 : 0.0
+Power consumed by Element 9 : 0.0
+Power consumed by Element 10 : 9.0
+Power consumed by Element 5 : 8.0
+Power consumed by Element 12 : 4.0
+Power consumed by Element 16 : 4.0
+Power consumed by Element 7 : 4.0
+Power consumed by Element 17 : 4.0
+Overload at Element 4
